@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const mongoose = require("mongoose");
-const Product = require('./models/product.model.js')
+//const Product = require('./models/product.model.js')
 const productRoute = require('./routes/product.route.js');
 
 mongoose.connect("mongodb+srv://shaizarashid135:PoS19ZN1ag11T84w@backenddb.pnvasw9.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDb")
